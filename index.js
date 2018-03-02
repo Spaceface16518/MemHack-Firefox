@@ -1,6 +1,6 @@
 browser.contextMenus.create({
   id: "pass",
-  title: "Display autopass button"
+  title: ""
 });
 
 browser.contextMenus.onClicked.addListener(function(info, tab) {
