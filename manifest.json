@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "name": "MemHack",
-  "version": "0.2",
+  "version": "0.3",
   "description": "A light-weight membean question bypasser",
   "icons": {},
 
-  "permissions": ["activeTab", "contextMenu"],
+  "permissions": ["activeTab", "contextMenus"],
 
   "browser_action": {
     "default_icon": "icons/m.png",
