@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "MemHack",
+  "version": "0.1",
+  "description": "A light-weight membean question bypasser",
+  "icons": {},
+
+  "permissions": ["activeTab", "contextMenu"],
+
+  "browser_action": {
+    "default_icon": "icons/m.png",
+    "default_title": "MemHack"
+  },
+
+  "background": {
+    "scripts": ["index.js"]
+  }
+}
