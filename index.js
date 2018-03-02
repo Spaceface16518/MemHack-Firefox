@@ -1,6 +1,6 @@
 browser.contextMenus.create({
   id: "pass",
-  title: "Autopass question"
+  title: "Display autopass button"
 });
 
 browser.contextMenus.onClicked.addListener(function(info, tab) {
@@ -8,6 +8,5 @@ browser.contextMenus.onClicked.addListener(function(info, tab) {
     browser.tabs.executeScript({
       file: "./content-scripts/autoPass.js"
     });
-    console.log('[MemHack] Autopass menu item clicked')
   }
 });
