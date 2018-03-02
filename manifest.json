@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "MemHack",
-  "version": "0.5",
+  "version": "0.1",
   "description": "A light-weight membean question bypasser",
   "icons": {},
 
