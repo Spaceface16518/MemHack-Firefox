@@ -8,5 +8,6 @@ browser.contextMenus.onClicked.addListener(function(info, tab) {
     browser.tabs.executeScript({
       file: "./content-scripts/autoPass.js"
     });
+    console.log('[MemHack] Autopass menu item clicked')
   }
 });
