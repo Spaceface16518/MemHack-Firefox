@@ -1,3 +1,3 @@
 var elem = document.getElementById("pass");
 elem.style.display = "inline";
-elem.getAttributeNode("value").value = "Autopass this question";
+elem.getAttributeNode("value").value = "";
